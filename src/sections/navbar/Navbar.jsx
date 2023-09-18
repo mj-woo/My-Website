@@ -15,7 +15,7 @@ const Navbar = ({closeModal}) => {
     <nav>
       <div className='container nav__container'>
         <a href="/" className='nav__logo'>
-          <h1>MJW</h1>
+          <h1 style={{color: 'black'}}>MJW</h1>
         </a>
         <ul className='nav__menu'>
           {
