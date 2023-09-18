@@ -14,7 +14,7 @@ const Navbar = ({closeModal}) => {
   return (
     <nav>
       <div className='container nav__container'>
-        <a href="/" className='nav__logo' onClick={handleReload}>
+        <a href="/" className='nav__logo'>
           <h1>MJW</h1>
         </a>
         <ul className='nav__menu'>
