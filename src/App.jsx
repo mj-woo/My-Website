@@ -21,7 +21,7 @@ function HomeWrapper() {
 
 const App = () => {
   const mainRef = useRef()
-  // console.log(mainRef.current.getBoundingClientRect())
+  console.log(mainRef.current.getBoundingClientRect())
   // const [showFloatingNav, setshowFloatingNav] = useState(true);
   // const [siteYPosition, setsiteYPosition] = useState(0);
 
