@@ -14,9 +14,10 @@ const Navbar = ({closeModal}) => {
   return (
     <nav>
       <div className='container nav__container'>
-        <a href="/" className='nav__logo'>
+        {/* <a href="/" className='nav__logo' onClick={handleReload}>
           <h1>MJW</h1>
-        </a>
+        </a> */}
+        <h1><Link to={'/'} className='nav__logo' onClick={handleReload}>MJW</Link></h1>
         <ul className='nav__menu'>
           {
             data.map(item => <li key={item.id}><Link to={item.link} onClick={handleReload}>{item.title}</Link></li>)
