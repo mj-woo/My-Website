@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/My-Website/static/css/main.5864e8ac.css",
+    "main.js": "/My-Website/static/js/main.103e0ca7.js",
+    "static/media/campus.png": "/My-Website/static/media/campus.ba86c0f8132ff617a0a3.png",
+    "static/media/cv.pdf": "/My-Website/static/media/cv.eb7e7933658a4be6df96.pdf",
+    "static/media/jejume.jpeg": "/My-Website/static/media/jejume.19b6eec81c5ce440e314.jpeg",
+    "static/media/smdb.jpeg": "/My-Website/static/media/smdb.15331c13dcfd899a01e2.jpeg",
+    "static/media/dance.jpeg": "/My-Website/static/media/dance.3384409b251db1daaf1f.jpeg",
+    "static/media/me.jpeg": "/My-Website/static/media/me.fe3af8550aefabeb3455.jpeg",
+    "static/media/qac.jpeg": "/My-Website/static/media/qac.e468c1ea7df145190616.jpeg",
+    "static/media/qacproject.jpeg": "/My-Website/static/media/qacproject.c1133557359d2b31fc61.jpeg",
+    "static/media/mediaproject.jpeg": "/My-Website/static/media/mediaproject.05745d05ac9f3e60871e.jpeg",
+    "static/media/backtogreen.jpeg": "/My-Website/static/media/backtogreen.cf4a206997047cfec4dd.jpeg",
+    "static/media/ssqrd.jpeg": "/My-Website/static/media/ssqrd.2559a764b02039c53c05.jpeg",
+    "static/media/kaiwes.jpeg": "/My-Website/static/media/kaiwes.af76def059781c0fdb85.jpeg",
+    "static/media/arrow.png": "/My-Website/static/media/arrow.f861173a5f45e98c8970.png",
+    "static/media/wes2.jpeg": "/My-Website/static/media/wes2.2cbafc28f9832fda4380.jpeg",
+    "index.html": "/My-Website/index.html",
+    "main.5864e8ac.css.map": "/My-Website/static/css/main.5864e8ac.css.map",
+    "main.103e0ca7.js.map": "/My-Website/static/js/main.103e0ca7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5864e8ac.css",
+    "static/js/main.103e0ca7.js"
+  ]
+}
