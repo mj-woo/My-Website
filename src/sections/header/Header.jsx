@@ -1,5 +1,6 @@
 import './header.css'
 import HeaderImage from '../../assets/me.jpeg'
+// import data from './data'
 import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -28,6 +29,8 @@ const Header = () => {
                 <div className="header__cta">
                     <Link to="/about" className="btn primary" onClick={handleReload}>About me</Link>
                     <a href='#footer' className='btn light'>Contact</a>
+                    {/* <a href='/about' className='btn primary'>About me</a>
+                    <a href='#footer' className='btn light'>Contact</a> */}
                 </div>
             </div>
             <div className='profile__container'>
@@ -38,6 +41,11 @@ const Header = () => {
                     <img src={HeaderImage} alt='Header Profile' className='photo2'/>
                 </div>
             </div>
+            {/* <div className="header__socials">
+                {
+                    data.map(item => <a key={item.id} href={item.link} target="_blank" rel="noopener noreferrer">{item.icon}</a>)
+                }
+            </div> */}
         </div>
     </header>
   )

@@ -19,7 +19,7 @@ const Navbar = ({closeModal}) => {
         </a>
         <ul className='nav__menu'>
           {
-            data.map(item => <li key={item.id}><Link to={item.link} onClick={handleReload}>{item.title}</Link></li>)
+            data.map(item => <li key={item.id}><Link to={item.link} onClick={handleReload} style={{color:'black'}}>{item.title}</Link></li>)
           }
         </ul>
       </div>

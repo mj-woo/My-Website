@@ -20,6 +20,7 @@ nav{
 .nav__logo {
     font-family: 'Bradley Hand';
     font-weight: bold;
+    color: black;
 }
 
 .nav__menu {
@@ -27,16 +28,16 @@ nav{
     gap: 3.5rem;
 }
 
-.nav__menu a{
+.nav__menu li {
     color: black;
 }
 
-#theme__icon {
+/* #theme__icon {
     background: transparent;
     color: white;
     font-size: 2rem;
     cursor: pointer;
-}
+} */
 
 /* Hide nav menu on tablets and phones */
 /* @media screen and (max-width: 1024px) {
