@@ -6,7 +6,7 @@ import PortfolioHome from "./sections/portfolio_home/Portfolio"
 import Services from "./sections/services/Services"
 import Footer from "./sections/footer/Footer"
 import { Route, Routes } from "react-router";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Switch } from "react-router-dom";
 import { useRef, useState, useEffect } from "react"
 import FloatingNav from "./sections/floating-nav/FloatingNav"
 import './index.css'
@@ -59,19 +59,19 @@ export default function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
-          <Navbar />
+      {/* <BrowserRouter> */}
+        <Navbar />
           {/* <main ref={mainRef}> */}
             <Routes>
-              <Route path="/gh-pages-url/" element={<HomeWrapper />} />
-              <Route path="/gh-pages-url/about" element={<About />} />
-              <Route path="/gh-pages-url/portfolio" element={<Portfolio />} />
+              <Route path="/" element={<HomeWrapper />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/portfolio" element={<Portfolio />} />
               <Route path="*" element={<HomeWrapper />} />
             </Routes>
           {/* </main> */}
-          <Footer />
+        <Footer />
           {/* {showFloatingNav && <FloatingNav />} */}
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </div>
   );
 }
