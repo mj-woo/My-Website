@@ -111,7 +111,8 @@ const data = [
             'Facilitated weekly Agile stand-up meetings, fostering collaboration with the Bessie’s CEO, engineers, designers, and the Wesleyan team.',
             "Created a roadmap for the long-term development of Bessie’s Campus Ambassador program.",
             "Implemented strategies for improved deliverability and engagement in the Campus Ambassador program, including campus student database management and email marketing algorithms.",
-            "Conducted A/B testing on Bessie’s platform UI/UX and features to identify Gen Z preferences.",
+            "Conducted A/B testing on Bessie’s platform UI/UX and features to identify Gen Z preferences, including Before & After Scrolling Bar and Store Locator.",
+            "Integrated Bessie's nail quiz into the Shopify store to automate email marketing and targeted advertisements.",
             "Led the implementation of frontend code for updated features."
         ]}]
     },
@@ -154,7 +155,8 @@ const data = [
                 "Childhood Adoption’s Impact on an Individual's Parenthood Desires",
                 "Predicting Alcohol Dependency from Smoking Behaviors",
                 "Parental Closeness and Its Effect on a Child’s Life Outlook",
-                "The Correlation Between Perfectionism and Amphetamine Use among Amphetamine Users"
+                "The Correlation Between Perfectionism and Amphetamine Use among Amphetamine Users",
+                "The Influence of Parental Involvement in Childhood on Adult Social Phobia Development"
             ]
         }]
     },

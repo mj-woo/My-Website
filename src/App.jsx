@@ -7,17 +7,9 @@ import Services from "./sections/services/Services"
 import Footer from "./sections/footer/Footer"
 import { Route, Routes } from "react-router";
 import { BrowserRouter } from "react-router-dom";
+import { useRef, useState, useEffect } from "react"
+import FloatingNav from "./sections/floating-nav/FloatingNav"
 import './index.css'
-
-// function HomeWrapper() {
-//   return (
-//     <div>
-//       <Header />
-//       <PortfolioHome />
-//       <Services />
-//     </div>
-//   );
-// }
 
 export default function App() {
 

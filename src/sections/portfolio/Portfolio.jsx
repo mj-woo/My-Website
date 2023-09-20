@@ -37,7 +37,7 @@ export const Portfolio = () => {
   };
 
   return (
-    <section id="portfolionav" className='portfolio__container_head'>
+    <section id="portfolionav" className='portfolio__container_head' style={{background: 'white'}}>
       <Navbar closeModal={closeModal} />
       <h2 className='port'>
         My Work

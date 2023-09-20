@@ -11,7 +11,7 @@ const Modal = ({project, closeModal, openModal, isModalOpen}) => {
                 <div className='left-align'>
                     <p style={{fontSize:'15px'}}><strong>Role: </strong>{project.role}</p>
                     <p style={{fontSize:'15px'}}><strong>Skills: </strong>{project.skills}</p>
-                    {project.desc2 && <p style={{fontSize:'15px'}}> <strong>Background: </strong>{project.desc2}</p>}
+                    {project.desc2 && <p style={{fontSize:'15px'}}><strong>Background: </strong>{project.desc2}</p>}
                     <ul>
                         {
                             project.work.map((item,index) => (
