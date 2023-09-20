@@ -190,7 +190,7 @@ header {
         max-height: 30vh;
     }
     .header__container p {
-        width: 70%;
+        width: 50%;
     }
     .header__container h3 {
         font-size: 1rem;
