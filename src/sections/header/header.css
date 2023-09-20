@@ -192,6 +192,10 @@ header {
     .header__container p {
         width: 50%;
     }
+    header {
+        width: 280px;
+        height: calc(100vh - 4rem);
+    }
     .header__container h3 {
         font-size: 1rem;
     }
