@@ -182,7 +182,7 @@ header {
 
 }
 
-@media screen and (max-width: 280){
+@media screen and (max-width: 390){
     .header__profile {
         width: 11rem;
         height: 14rem;
@@ -193,7 +193,8 @@ header {
         width: 50%;
     }
     header {
-        width: 280px;
+        width: 390px;
+        max-width: 390px;
         height: calc(100vh - 4rem);
     }
     .header__container h3 {
