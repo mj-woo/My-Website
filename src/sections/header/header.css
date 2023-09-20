@@ -122,11 +122,32 @@ header {
     transform: translateX(-0.5rem);
 }
 
+
+@media screen and (max-width: 1400px) {
+    .header__profile2 {
+        display: none;
+    }
+
+}
+
 /* media queries (tablets) */
 @media screen and (max-width: 1024px) {
     header {
-        margin-top: 0;
+        margin-top: 130px;
         height: 100vh;
+    }
+
+    .header__profile2 {
+        display: none;
+    }
+
+    .header__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__container p {
+        width: 35rem;
     }
 }
 
@@ -136,6 +157,11 @@ header {
         height: 17rem;
         max-width: 60%;
         max-height: 35vh;
+    }
+
+    .header__container {
+        flex-direction: column;
+        align-items: center;
     }
 
     .header__container p {
@@ -149,4 +175,9 @@ header {
     .header__socials {
         display: none;
     }
+
+    .header__profile2 {
+        display: none;
+    }
+
 }

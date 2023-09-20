@@ -250,10 +250,6 @@ ul li {
         position: relative; 
         z-index: 1001;
     }
-
-    .portfolio__container_head {
-        align-items: center;
-    }
 }
 
 @media screen and (max-width: 600px) {

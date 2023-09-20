@@ -63,9 +63,9 @@ export default function App() {
           <Navbar />
           {/* <main ref={mainRef}> */}
             <Routes>
-              <Route path="/" element={<HomeWrapper />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/gh-pages-url/" element={<HomeWrapper />} />
+              <Route path="/gh-pages-url/about" element={<About />} />
+              <Route path="/gh-pages-url/portfolio" element={<Portfolio />} />
               <Route path="*" element={<HomeWrapper />} />
             </Routes>
           {/* </main> */}

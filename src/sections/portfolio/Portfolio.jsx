@@ -33,6 +33,7 @@ export const Portfolio = () => {
   const openModal = (project) => {
       setIsModalOpen(true);
       setSelectedProject(project)
+      console.log(window.innerWidth)
       document.body.style.overflow = 'hidden';
   };
 
