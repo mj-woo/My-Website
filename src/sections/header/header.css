@@ -181,3 +181,18 @@ header {
     }
 
 }
+
+@media screen and (max-width: 280){
+    .header__profile {
+        width: 11rem;
+        height: 14rem;
+        max-width: 450%;
+        max-height: 30vh;
+    }
+    .header__container p {
+        width: 70%;
+    }
+    .header__container h3 {
+        font-size: 1rem;
+    }
+}
