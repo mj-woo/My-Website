@@ -152,9 +152,6 @@ header {
 }
 
 @media screen and (max-width: 600){
-    .header__container {
-        grid-template-columns: 1fr;
-    }
 
     .header__profile {
         width: 11rem;
@@ -202,6 +199,10 @@ header {
 
     .header__profile2 {
         display: none;
+    }
+
+    .header__container {
+        grid-template-columns: 1fr;
     }
 
 }
