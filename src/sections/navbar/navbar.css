@@ -50,6 +50,7 @@ nav{
 @media screen and (max-width: 600) {
     .nav__menu {
         justify-content: flex-start;
-        text-align: left;
+        text-align: right;
+        gap: 3rem;
     }
 }
