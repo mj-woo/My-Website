@@ -153,10 +153,10 @@ header {
 
 @media screen and (max-width: 600px){
     .header__container p {
-        width: 30rem;
+        width: 20rem;
     }
 
-    .header__container h3 {
+    /* .header__container h3 {
         font-size: 1rem;
-    }
+    } */
 }
