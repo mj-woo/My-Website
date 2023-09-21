@@ -151,7 +151,7 @@ header {
     }
 }
 
-@media screen and (max-width: 600){
+@media screen and (max-width: 600px){
 
     .header__profile {
         /* width: 11rem; */
