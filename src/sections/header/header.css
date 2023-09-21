@@ -151,19 +151,12 @@ header {
     }
 }
 
-/* @media screen and (max-width: 600px){
-    header {
-        margin-top: 130px;
-        height: 120vh;
-    }
-
-    .header__container {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
+@media screen and (max-width: 600px){
     .header__container p {
-        width: 28rem;
-        margin-left: 10px;
+        width: 30rem;
     }
-} */
+
+    .header__container h3 {
+        font-size: 1rem;
+    }
+}
