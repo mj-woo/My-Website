@@ -152,6 +152,10 @@ header {
 }
 
 @media screen and (max-width: 600){
+    .header__container {
+        grid-template-columns: 1fr;
+    }
+
     .header__profile {
         width: 11rem;
         height: 14rem;
@@ -164,7 +168,8 @@ header {
     }
 
     .header__container p {
-        width: 32rem;
+        display: flex;
+        width: 30rem;
         text-align: left;
         margin: 0.6rem 0 2rem;
         font-size: 0.8rem;
