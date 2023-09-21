@@ -26,6 +26,7 @@ nav{
 .nav__menu {
     display: flex;
     gap: 3.5rem;
+    flex-flow: row wrap;
 }
 
 .nav__menu li {
@@ -45,3 +46,9 @@ nav{
         display: none;
     }
 } */
+
+@media screen and (max-width: 460px) {
+    .nav__menu {
+        justify-content: flex-start;
+    }
+}

@@ -54,13 +54,19 @@ export const PortfolioHome = () => {
       <div className="container portfolio__container">
         <ProjectsCategories categories={uniqueCategories} onFilterProjects={filterProjectsHandler} />
         <Projects projects={projects} closeModal={closeModal} openModal={openModal} isModalOpen={isModalOpen}/>
+        {isModalOpen && (
+            <>
+            <div className="full-page-overlay"></div>
+            <ModalHome project={selectedProject} closeModal={closeModal} openModal={openModal} isModalOpen={isModalOpen}/>
+            </>
+        )}
       </div>
-      {isModalOpen && (
+      {/* {isModalOpen && (
         <>
           <div className="full-page-overlay"></div>
           <ModalHome project={selectedProject} closeModal={closeModal} openModal={openModal} isModalOpen={isModalOpen}/>
         </>
-      )}
+      )} */}
     </section>
   )
 }
