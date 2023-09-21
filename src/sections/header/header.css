@@ -152,11 +152,15 @@ header {
 }
 
 @media screen and (max-width: 600px){
-    .header__container p {
-        width: 20rem;
+    header {
+        height: fit-content;
     }
 
-    /* .header__container h3 {
+    .header__container p {
+        width: 22rem;
+    }
+
+    .header__container h3 {
         font-size: 1rem;
-    } */
+    }
 }
