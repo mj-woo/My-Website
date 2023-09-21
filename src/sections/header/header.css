@@ -151,7 +151,7 @@ header {
     }
 }
 
-@media screen and (max-width: 600px){
+/* @media screen and (max-width: 600px){
     header {
         margin-top: 130px;
         height: 120vh;
@@ -166,4 +166,4 @@ header {
         width: 28rem;
         margin-left: 10px;
     }
-}
+} */
