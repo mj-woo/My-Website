@@ -49,7 +49,7 @@ nav{
 @media screen and (max-width: 600) {
     .nav__menu {
         text-align: right;
-        gap: 2rem;
+        gap: 1.5rem;
     }
     .nav__menu li {
         color: black;
