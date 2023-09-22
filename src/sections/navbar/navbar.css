@@ -18,7 +18,7 @@ nav{
 }
 
 .nav__logo {
-    font-family: 'Bradley Hand';
+    font-family: 'Bradley Hand', 'Caveat';
     font-weight: bold;
     color: black;
 }
@@ -26,7 +26,6 @@ nav{
 .nav__menu {
     display: flex;
     gap: 3.5rem;
-    flex-flow: row wrap;
 }
 
 .nav__menu li {
@@ -49,12 +48,15 @@ nav{
 
 @media screen and (max-width: 600) {
     .nav__menu {
-        justify-content: flex-start;
         text-align: right;
         gap: 2rem;
     }
-    .nav__container {
+    .nav__menu li {
+        color: black;
+        font-size: 0.8rem;
+    }
+    /* .nav__container {
         display: grid;
         grid-template-columns: 1fr;
-    }
+    } */
 }
