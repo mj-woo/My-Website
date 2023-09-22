@@ -5,6 +5,7 @@ header {
     place-items: center;
     background: var(--color-white);
     transition: var(--transition);
+    width: 100vw;
 }
 
 .header__container {
@@ -153,9 +154,9 @@ header {
 }
 
 @media screen and (max-width: 600px){
-    header {
+    /* header {
         height: fit-content;
-    }
+    } */
 
     .header__container p {
         width: 22rem;
