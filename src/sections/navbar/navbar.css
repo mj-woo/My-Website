@@ -55,8 +55,8 @@ nav{
         color: black;
         font-size: 0.8rem;
     }
-    /* .nav__container {
+    .nav__container {
         display: grid;
         grid-template-columns: 1fr;
-    } */
+    }
 }
