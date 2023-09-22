@@ -5,6 +5,7 @@ header {
     place-items: center;
     background: var(--color-white);
     transition: var(--transition);
+    width: 100vh;
 }
 
 .header__container {
